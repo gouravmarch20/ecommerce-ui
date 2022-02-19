@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box !important;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  margin-top: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+.footer__left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__left > p {
+  text-align: center;
+}
+
+.footer__left > div > i {
+  cursor: pointer;
+  margin: 0rem 0.3rem;
+}
+.footer__mid {
+  width: 60%;
+  text-align: center;
+}
+.footer__right {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer__right__links > a  {
+  margin:  0rem .4rem;
+}

@@ -1,0 +1,18 @@
+.product {
+  background-color: red;
+  max-width: 25vw;
+  transition: all 0.5s;
+  padding-bottom: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product__name {
+}
+.product__image {
+  width: 24vw;
+}
+.product__rating {
+}
+.product__price {
+}
