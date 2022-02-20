@@ -1,0 +1,15 @@
+.buyLater__btn {
+  background-color: red;
+  padding: 0.5rem 0.5rem;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+  background-color:#EDC126;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+.buyLater__btn__green {
+  background-color: #02b290;
+}

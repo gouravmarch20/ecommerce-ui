@@ -19,6 +19,9 @@
   display: flex;
   flex-direction: column;
 }
+.cart__items:hover {
+  box-shadow: 2px 3px 7px green;
+}
 .cart__image {
   max-width: 27vw;
   max-height: 25vh;
