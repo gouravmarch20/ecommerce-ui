@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: none;
+  scroll-behavior: scroll;
 }
 h1,
 h2,
@@ -10,8 +11,15 @@ h5,
 h6,
 i,
 a,
-img {
+div,
+section {
   margin: 1rem;
+}
+
+span,
+p {
+  margin-bottom: 0.7rem;
+  margin-top: 0.2rem;
 }
 button,
 a {
