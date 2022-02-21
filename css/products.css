@@ -7,9 +7,13 @@ ul {
 }
 
 .products__filterBox {
-  flex-basis: 25vw;
-  position: static;
+  min-width: 20%;
+  flex-direction: column;
   height: 100vh;
+  position: sticky;
+  top: 0;
+  background-color: #35BDD0;
+  margin: 0;
 }
 
 .products__listing {
@@ -27,11 +31,9 @@ ul {
   transition: all 0.5s;
   padding-bottom: 0.3rem;
   display: flex;
-
   flex-direction: column;
-  /* flex-direction: row; */
   align-items: center;
-  /* background-color: lightpink; */
+
   box-shadow: 1px 1px 2px lightgray;
 }
 .product__image {

@@ -4,7 +4,7 @@
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  background-color: #cad5e2;
   margin-top: 1rem;
   align-items: center;
   padding: 1rem;
@@ -14,6 +14,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .footer__left > p {
   text-align: center;
@@ -26,12 +27,19 @@ footer {
 .footer__mid {
   width: 60%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: start;
 }
 .footer__right {
+  
   width: 20%;
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
+
 }
 .footer__right__links > a  {
   margin:  0rem .4rem;
