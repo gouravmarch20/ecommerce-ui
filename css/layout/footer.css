@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box !important;
+* {
+  box-sizing: border-box !important;
 }
 footer {
   display: flex;
@@ -33,14 +33,12 @@ footer {
   justify-content: start;
 }
 .footer__right {
-  
   width: 20%;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-
 }
-.footer__right__links > a  {
-  margin:  0rem .4rem;
+.footer__right__links > a {
+  margin: 0rem 0.4rem;
 }

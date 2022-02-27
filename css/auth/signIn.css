@@ -1,10 +1,7 @@
 body {
   background-color: #cad5e2;
 }
-.signup {
-  width: 70%;
-  margin: 10vh auto;
-}
+
 label {
   display: block;
   margin: 0.5rem 0rem;
@@ -15,10 +12,22 @@ input {
 }
 input:focus {
   border-radius: 0.3rem;
-
   transition: all 1s;
   padding: 0.4rem 0.5rem;
 }
+
+.signup {
+  width: 70%;
+  margin: 10vh auto;
+}
+.subheading {
+  text-align: center;
+  color: #12b0e8;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 .signin__form {
   display: flex;
   justify-content: center;
@@ -30,13 +39,7 @@ input:focus {
   padding: 3rem;
   box-shadow: 1px 2px 5px red;
 }
-.subheading {
-  text-align: center;
-  color: #12b0e8;
-  font-weight: 700;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
+
 .signup__button {
   padding: 1rem 0.7rem;
   font-weight: 900;
